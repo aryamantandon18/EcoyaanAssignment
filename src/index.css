@@ -4,4 +4,5 @@
 
 *{
   @apply font-sans;
+  box-sizing: border-box;
 }
