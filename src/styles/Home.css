@@ -1,0 +1,7 @@
+.crim{
+    background-image: url("https://ecoyaan.com/images/carousel-1.png");
+}
+.carousel .control-dots .dot {
+    width: 12px; /* Adjust the width of the indicators */
+    height: 12px; /* Adjust the height of the indicators */
+  }
