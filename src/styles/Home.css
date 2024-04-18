@@ -21,11 +21,34 @@
 .carousel .control-dots .dot:hover{
     background-color: black;
 }  
-
 .joinImage{
     animation: imgUp 0.7s linear infinite alternate;
     mix-blend-mode:darken
 }
+/* .home2{
+  height: 80vh;
+  display: flex;
+  margin-top: -3.5rem;
+  margin-bottom: -3.5rem;
+}
+.home2 .box{
+width: 60%;
+height: 70%;
+margin-top:auto;
+margin-bottom:auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+} */
+
+
+
+
+
+
+
+
+
 @keyframes imgUp {
     to {
       transform: translateY(-10px);
@@ -38,15 +61,6 @@
   }
 }
 @media screen and (max-width: 700px) {
-  .home2{
-    flex-direction: column;
-  }
-  .home2>div{ 
-    width: 100%;
-  }
-  .home img{
-    width:100%;
-  }
   .banner{
     height:40vh;
   }
@@ -76,4 +90,16 @@
     width:90px;
     margin-top: 20px;
   }
+  .carousel .control-dots .dot {
+    width: 10px; 
+    height: 10px; 
+    bottom:50px;
+  } 
+  .home2{
+    flex-direction: column;
+  }
+  .home2 .box{
+    width:100%;
+  }
+
 }  
