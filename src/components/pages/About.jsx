@@ -16,7 +16,7 @@ const About = () => {
     </ul>
     </section>
   </div>
-  <div className='w-[40%]'>
+  <div className='w-[40%] hover:scale-110 transition ease-in-out delay-100'>
     <img src='https://ecoyaan.com/images/about-us-sustainable-lifestyle-partner.png'/>
   </div>
    </div>

@@ -1,14 +1,19 @@
 
 .carousel .control-dots .dot {
-    width: 12px; /* Adjust the width of the indicators */
-    height: 12px; /* Adjust the height of the indicators */
+    width: 14px; /* Adjust the width of the indicators */
+    height: 14px; /* Adjust the height of the indicators */
     position: relative;
-    bottom: 350px;
+  
   } 
 .banner{
     width:100%;
     height:100vh;
     padding-top: 80px;
+}
+.banner div{
+  height: 100%;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
 }
 .carousel .control-dots .dot.selected {
     background: black;
@@ -26,3 +31,49 @@
       transform: translateY(-10px);
     }
   }
+
+@media screen and (max-width:100) {
+  .banner{
+    height:60vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .home2{
+    flex-direction: column;
+  }
+  .home2>div{ 
+    width: 100%;
+  }
+  .home img{
+    width:100%;
+  }
+  .banner{
+    height:40vh;
+  }
+  .banner .banDiv{
+    text-align: left;
+    top:14%;
+    left:5%;
+    width: 60%;
+  }
+  .banDiv p {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  .banner div .heading{
+    overflow-wrap: break-word;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0px;
+  }
+  .banner div .btn{
+    font-size: 15px;
+    padding: 0;
+    height: 30px;
+    width:90px;
+    margin-top: 20px;
+  }
+}  
