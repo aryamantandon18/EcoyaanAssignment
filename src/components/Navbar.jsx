@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Navbar.css'
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -33,7 +33,7 @@ const Navbar = () => {
     <div className='navbar md:h-[80px] max-w-screen md:w-full flex md:justify-between shadow-xl z-10 fixed t-0 bg-white responsive'
     ref={navRef}  >
     <div className='items-center flex md:gap-5'>
-      {windowWidth<768 ? ( <div><FaBars className='w-16 text-3xl cursor-pointer' onClick={showNavbar}/> </div>  ) :(
+      {windowWidth<768 ? ( <div><FaTimes className='w-16 text-3xl  hover:text-green-500 cursor-pointer  transition ease delay-80' onClick={showNavbar}/> </div>  ) :(
           <img src='https://tse2.mm.bing.net/th?id=OIP.zHP9bm5ZKQ2syBgQxfPOjgHaGx&pid=Api&P=0&h=180' className='w-16 hidden md:block'/>
       )}
         <p className='text-5xl font-sans font-semibold hover:text-green-500 cursor-pointer hover:scale-105 transition ease delay-80'>Ecoyaan</p>
