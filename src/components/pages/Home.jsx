@@ -52,7 +52,7 @@ const Home = () => {
 
       <div className='h-[70vh] md:h-[80vh] md:bg-green-100 flex md:-my-14 home2 '>
      <div className=' box w-full md:w-[60%] bg-white h-[70%] my-auto md:rounded-r-[100px] flex flex-col justify-center '> 
-      <section className='w-[70%] mx-auto md:pr-28 break-all'>
+      <section className='w-[70%] mx-auto md:pr-28 text-justify'>
       <p className='boxHeading text-2xl md:text-4xl font-sans font-semibold flex flex-wrap md:tracking-wide mb-6'>Join our community in creating a more sustainable future for everyone</p>
      <p className=' boxPara text-xl md:mb-4 md:flex-wrap flex-shrink-3'>At Ecoyaan, we are more than just a platform. Our vision is to build an eco-conscious community for people and products.</p>
      <p className='text-xl flex-wrap pb-4'>Consider us your partner for all things sustainable. To keep you motivated on the journey, we will provide you with engaging information about climate change, the latest updates on climate policies and lifestyle tips that you can adopt to reduce your impact on the environment.</p>
@@ -66,7 +66,7 @@ const Home = () => {
       <div className='h-[100vh] md:h-[80vh] md:bg-green-100 flex md:-my-14 home2'>
       <img src={image2} alt='image2' className=' joinImage h-[50vh] md:w-[40%] relative md:top-[18%] top-[70%] rounded-full p-10'/>  
      <div className='box w-full md:w-[60%] bg-white h-[70%] my-auto md:rounded-l-[100px] flex flex-col justify-center relative md:-top-0 -top-64'> 
-      <section className='w-[70%] mx-auto md:pr-28 break-all'>
+      <section className='w-[70%] mx-auto md:pr-28 text-justify'>
       <p className='text-2xl md:text-4xl font-sans font-semibold flex flex-wrap tracking-wide mb-6 '>Carefully curated Eco-friendly products</p>
      <p className='text-xl mb-4 flex-wrap '>We believe that every purchase you make can have a positive impact on the planet and the future.</p>
      <p className='text-xl flex-wrap '>Soon, we will be connecting you with eco-friendly and sustainable products that are carefully selected based on their environmental and social benefits.</p>
@@ -76,7 +76,7 @@ const Home = () => {
 
       <div className='h-[120vh] md:h-[80vh] md:bg-green-100 flex md:-my-14 home2 '>
      <div className='box w-full md:w-[60%] bg-white h-[70%] my-auto md:rounded-r-[100px] flex flex-col justify-center '> 
-      <section className='w-[70%] mx-auto md:pr-28 break-all '>
+      <section className='w-[70%] mx-auto md:pr-28  text-justify'>
       <p className='text-2xl md:text-4xl font-sans font-semibold flex flex-wrap tracking-wide mb-6 '>For businesses that care deeply about sustainability</p>
      <p className='text-xl mb-4 flex flex-wrap '>Do you run a business that is committed to sustainability in every aspect of your work?</p>
      <p className='text-xl mb-4 flex flex-wrap'>Do you want to showcase your products to an incredible audience of eco-conscious consumers who care?</p>
