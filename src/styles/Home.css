@@ -55,14 +55,15 @@ justify-content: center;
     }
   }
 
-@media screen and (max-width:100) {
+@media screen and (max-width:1000px) {
   .banner{
     height:60vh;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .banner{
     height:40vh;
+    padding-top: 6vh;
   }
   .banner .banDiv{
     text-align: left;
