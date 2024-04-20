@@ -30,7 +30,7 @@ const Navbar = () => {
     <FaBars className='w-16 text-2xl cursor-pointer  hover:text-green-500 ' onClick={showNavbar}/>
     <p className='text-2xl lg:text-5xl font-sans font-semibold hover:text-green-500 cursor-pointer hover:scale-105 transition ease delay-80'>Ecoyaan</p>
     </div>
-    <div className='navbar md:h-[9vh] lg:h-[80px] max-w-screen lg:w-full flex lg:justify-between shadow-xl z-10 fixed t-0 bg-white '
+    <div className='navbar lg:h-[80px] max-w-screen lg:w-full flex lg:justify-between shadow-xl z-10 fixed t-0 bg-white '
     ref={navRef}  >
     <div className='items-center flex lg:gap-5'>
       {windowWidth<1000 ? ( <div><FaTimes className='w-16 text-3xl  hover:text-green-500 cursor-pointer  transition ease delay-80 text-' onClick={showNavbar}/> </div>  ) :(
