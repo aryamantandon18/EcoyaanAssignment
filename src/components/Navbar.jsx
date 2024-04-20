@@ -39,14 +39,14 @@ const Navbar = () => {
         <p className='text-2xl lg:text-5xl font-sans font-semibold hover:text-green-500 cursor-pointer hover:scale-105 transition ease delay-80'>Ecoyaan</p>
     </div>
     <div className='navbarLinks font-sans flex lg:gap-8 items-center text-lg lg:text-2xl'>
-        <Link className='transition ease-in-out delay-80  p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold  hover:font-bold' to={"/"}>Home</Link>
-        <Link className=' transition ease-in-out delay-80 p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold hover:font-bold' to={"/about"}>About</Link>
-        <Link className=' transition ease-in-out delay-80 p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold  hover:font-bold'>Contact</Link>
-        <Link className='transition ease-in-out delay-80 p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold  hover:font-bold'>Others</Link>
+        <Link className='transition ease-in-out delay-80  p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold  hover:font-bold' to={"/"} onClick={showNavbar}>Home</Link>
+        <Link className=' transition ease-in-out delay-80 p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold hover:font-bold' to={"/about"} onClick={showNavbar}>About</Link>
+        <Link className=' transition ease-in-out delay-80 p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold  hover:font-bold' onClick={showNavbar}>Contact</Link>
+        <Link className='transition ease-in-out delay-80 p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold  hover:font-bold' onClick={showNavbar}>Others</Link>
     </div>
     <div className='flex items-center lg:p-2 lg:gap-6 flex-col lg:flex-row navbtnContainer' ref={navRef}>
-        <button className='navbtn items-center class="lg:w-20 lg:px-4 lg:py-3 lg:bg-green-600 rounded-md lg:text-white font-sans lg:text-xl outline-none lg:focus:ring-4 lg:shadow-lg lg:transform active:scale-y-75 lg:transition-transform flex text-lg'>LogIn</button>
-        <button className='navbtn items-center class="lg:w-20 lg:px-4 lg:py-3 lg:bg-green-600 rounded-md lg:text-white font-sans lg:text-xl outline-none lg:focus:ring-4 lg:shadow-lg lg:transform active:scale-y-75 lg:transition-transform flex text-lg'>SignUp</button>
+        <button className='navbtn items-center class="lg:w-20 lg:px-4 lg:py-3 lg:bg-green-600 rounded-md lg:text-white font-sans lg:text-xl outline-none lg:focus:ring-4 lg:shadow-lg lg:transform active:scale-y-75 lg:transition-transform flex text-lg' onClick={showNavbar}>LogIn</button>
+        <button className='navbtn items-center class="lg:w-20 lg:px-4 lg:py-3 lg:bg-green-600 rounded-md lg:text-white font-sans lg:text-xl outline-none lg:focus:ring-4 lg:shadow-lg lg:transform active:scale-y-75 lg:transition-transform flex text-lg' onClick={showNavbar}>SignUp</button>
     </div>  
 
 </div>
