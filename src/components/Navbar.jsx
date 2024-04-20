@@ -36,7 +36,7 @@ const Navbar = () => {
       {windowWidth<1000 ? ( <div><FaTimes className='w-16 text-3xl  hover:text-green-500 cursor-pointer  transition ease delay-80 text-' onClick={showNavbar}/> </div>  ) :(
           <img src='https://tse2.mm.bing.net/th?id=OIP.zHP9bm5ZKQ2syBgQxfPOjgHaGx&pid=Api&P=0&h=180' className='w-16 hidden lg:block'/>
       )}
-        <p className='text-2xl lg:text-5xl font-sans font-semibold hover:text-green-500 cursor-pointer hover:scale-105 transition ease delay-80'>Ecoyaan</p>
+        <p className='text-2xl md:text-3xl lg:text-5xl font-sans font-semibold hover:text-green-500 cursor-pointer hover:scale-105 transition ease delay-80'>Ecoyaan</p>
     </div>
     <div className='navbarLinks font-sans flex lg:gap-8 items-center text-lg lg:text-2xl'>
         <Link className='transition ease-in-out delay-80  p-2 lg:hover:underline underline-offset-[29px] lg:font-semibold focus:font-bold  hover:font-bold' to={"/"} onClick={showNavbar}>Home</Link>

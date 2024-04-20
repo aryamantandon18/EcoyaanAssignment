@@ -40,7 +40,7 @@ const About = () => {
   ]
   return (
    <>
-   <div className='bg-indigo-50 w-[100%] lg:h-[70vh] flex px-4 lg:px-28 py-16 lg:py-36 flex-col lg:flex-row'>
+   <div className='bg-indigo-50 w-[100%] lg:h-[70vh] flex px-4 lg:px-28 py-16 md:py-28 lg:py-36 flex-col lg:flex-row'>
   <div className='lg:w-[60%]'>
     <section className=' w-[100%] lg:w-[70%] text-justify'>
     <p className='text-2xl lg:text-5xl font-sans font-bold mb-6'>About Ecoyaan</p>

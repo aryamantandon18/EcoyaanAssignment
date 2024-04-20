@@ -39,7 +39,7 @@
 }
 @media screen and (max-width: 1000px) {
   .banner{
-    height:80vh;
+    height:60vh;
     padding-top: 9vh;
   }
   .banner .banDiv{
