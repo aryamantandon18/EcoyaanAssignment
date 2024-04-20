@@ -1,10 +1,4 @@
 
-.navbar::before{
-background: white;
-max-width: 100vw;
-height: 80px;
-box-shadow: 2px;
-}
 @media only screen and (max-width: 1021px){
 .navbar{
     flex-direction: column;
