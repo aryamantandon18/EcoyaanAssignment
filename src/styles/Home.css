@@ -37,7 +37,7 @@
     height:60vh;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .banner{
     height:40vh;
     padding-top: 6vh;
