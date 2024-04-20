@@ -26,7 +26,7 @@ const Navbar = () => {
   }, [windowWidth]);
   return (
    <>
-    <div className='lg:hidden h-[6vh] lg:h-[80px] max-w-screen w-full flex items-center shadow-xl z-10 fixed t-0 bg-white'>
+    <div className='lg:hidden h-[6vh] md:h-[9vh] lg:h-[80px] max-w-screen w-full flex items-center shadow-xl z-10 fixed t-0 bg-white'>
     <FaBars className='w-16 text-2xl cursor-pointer  hover:text-green-500 ' onClick={showNavbar}/>
     <p className='text-2xl lg:text-5xl font-sans font-semibold hover:text-green-500 cursor-pointer hover:scale-105 transition ease delay-80'>Ecoyaan</p>
     </div>

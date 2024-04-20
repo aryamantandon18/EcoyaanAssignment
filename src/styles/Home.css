@@ -32,12 +32,56 @@
     }
   }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
   .banner{
-    height:60vh;
+    height:70vh;
   }
 }
 @media screen and (max-width: 1000px) {
+  .banner{
+    height:80vh;
+    padding-top: 9vh;
+  }
+  .banner .banDiv{
+    text-align: left;
+    top:20%;
+    left:5%;
+    width: 50%;
+  }
+  .banDiv p {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2;
+  }
+  
+  .banner div .heading{
+    overflow-wrap: break-word;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 2px;
+  }
+  .banner div .btn{
+    font-size: 15px;
+    padding: 0;
+    height: 35px;
+    width:83px;
+    margin-top: 20px;
+  }
+  .carousel .control-dots .dot {
+    width: 10px; 
+    height: 10px; 
+    bottom:60px;
+  } 
+  .home2{
+    flex-direction: column;
+  }
+  .home2 .box{
+    width:100%;
+  }
+
+}  
+@media screen and (max-width: 768px) {
   .banner{
     height:40vh;
     padding-top: 6vh;
@@ -79,5 +123,4 @@
   .home2 .box{
     width:100%;
   }
-
-}  
+}
