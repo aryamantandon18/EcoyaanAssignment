@@ -41,9 +41,9 @@ const About = () => {
   return (
    <>
    <div className='bg-indigo-50 w-[100%] lg:h-[70vh] flex px-4 lg:px-28 py-16 md:py-28 lg:py-36 flex-col lg:flex-row'>
-  <div className='lg:w-[60%]'>
-    <section className=' w-[100%] lg:w-[70%] text-justify'>
-    <p className='text-2xl lg:text-5xl font-sans font-bold mb-6'>About Ecoyaan</p>
+  <div className='md:w-[70%] lg:w-[60%]'>
+    <section className=' w-[100%]  lg:w-[70%] text-justify'>
+    <p className='text-2xl lg:text-5xl font-sans font-bold mb-6 lg:mb-10'>About Ecoyaan</p>
     <p className='text-md lg:text-2xl pb-4 tracking-wide text-gray-800'>At Ecoyaan, we are more than just a platform. Our goal is to build a community of eco-conscious people who share a common vision and passion for a more sustainable world.</p>
     <p className='text-md lg:text-2xl pb-4 tracking-wide text-gray-800'>We recognize that sustainability is a journey (as the Sanskrit word “yaan” suggests). To keep you motivated on this journey, on our platform and our social media pages, you can find:</p>
     <ul className='lg:text-xl text-gray-800 list-disc px-6'>
@@ -61,7 +61,7 @@ const About = () => {
    </div>
    {/* ---------------------------------------------------------------------------------------- */}
    <div className='bg-[#fefce8] w-[100%] lg:h-[70vh] flex px-4 lg:px-28 py-12 flex-col'>
-    <p className='text-2xl lg:text-5xl font-sans font-bold mb-6 '>Our Values</p> 
+    <p className='text-2xl lg:text-5xl font-sans font-semibold mb-10 lg:mb-20 mt-1 lg:mt-10'>Our Values</p> 
      <div className='flex flex-col text-justify'>
       <div className='flex lg:flex-row flex-col w-[100%] '>
       <div className='flex lg:flex-row flex-col '>
@@ -101,7 +101,7 @@ const About = () => {
    </div>
 {/* __________________________________________________________________________________________________ */}
 <div className='bg-indigo-50 w-[100%]  lg:h-[80vh] flex px-4 lg:px-28 py-10 flex-col'>
-     <p className='text-2xl lg:text-5xl font-sans font-semibold lg:mb-8'>Our Story</p> 
+     <p className='text-2xl lg:text-5xl font-sans font-semibold mb-10 lg:mb-14 lg:mt-10'>Our Story</p> 
      <div className='flex lg:flex-row flex-col'>
       <div className='flex flex-col lg:w-[20%]'>
        <img src='https://ecoyaan.com/images/about-us-founding-team-01.png' className='ml-20 lg:ml-0 w-[50%] lg:w-[90%] mb-7 hover:scale-105 transition-all delay-80'/>
@@ -118,7 +118,7 @@ const About = () => {
      </div>
 
      <div className='bg-[#fefce8] lg:w-[100%] lg:h-[120vh] flex px-4 lg:px-28 py-10 flex-col gap-6'>
-      <p className='text-2xl lg:text-5xl font-sans font-semibold lg:mb-8'>Meet the Team</p>
+      <p className='text-2xl lg:text-5xl font-sans font-semibold lg:mb-8 lg:mt-10'>Meet the Team</p>
      <div className='flex lg:gap-20 lg:flex-row flex-col'>
      {TeamData && TeamData.slice(0,3).map((item)=>(
         <TeamCard name={item.name} image={item.image} role={item.role} para={item.para}/>
